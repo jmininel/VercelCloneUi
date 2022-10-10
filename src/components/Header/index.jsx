@@ -8,30 +8,32 @@ function Header() {
                  <img className='w-24 ' src="src\assets\logo.svg" alt="" />
                </div>
 
-               <div className='m-3' >
-                <ul className='flex flex-row text-zinc-400 font-light text-[0.5rem]'>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal' >Features</li>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal'>Templates</li>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal'>Integrations</li>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal'>Customers</li>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal'>Enterprise</li>
-                    <li className='m-1 hover:text-slate-50 hover:font-normal'>Pricing</li>
-                </ul>
+               <div className='m-3 ' >
+                      <ul className='flex flex-row items-center justify-between text-zinc-400 font-light text-[0.5rem]'>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal' >Features</li>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal'>Templates</li>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal'>Integrations</li>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal'>Customers</li>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal'>Enterprise</li>
+                      <li className='m-1 hover:text-slate-50 hover:font-normal'>Pricing</li>
+                  </ul>
                 </div>
+               
                  <div className='m-3'>
-                    <ul className='flex flex-row text-xs  text-zinc-400 font-thin text-[0.5rem]'>
+                    <ul className='flex flex-row items-center justify-between text-zinc-400 font-light text-[0.5rem]'>
                         <li className='m-1 hover:text-slate-50 hover:font-normal '>Contact</li>
                         <li className='m-1 hover:text-slate-50 hover:font-normal '>Login</li>
-                        <li className='m-1 w-10 h-4 bg-white font-medium text-slate-900 hover:text-white hover:bg-black hover:font-medium rounded border border-white flex justify-center items-center'>Sign Up</li>
+                        <li className='m-1 w-10 h-4 bg-white font-medium text-slate-900 hover:text-white hover:bg-black hover:font-medium rounded border border-white '>Sign Up</li>
                     </ul>
                  </div>
 
              
 
-               <div ></div>
+             
 
-
+            
                 
+            
             </header>
         </div>
     )
