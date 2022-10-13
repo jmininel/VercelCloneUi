@@ -5,7 +5,27 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+        'animation': {
+            'gradient':'gradient 8s ease infinite',
+        },
+             'keyframes': {
+            'gradient': {
+                '0%, 100%': {
+                   
+                    'background-size':'100% 400%',
+                    'background-position': 'left right'
+                },
+                '50% ': {
+                    'background-size':'400% 100%',
+                    'background-position': ' right left'
+                }
+            },
+    
+        }
+         
+    }
+},
+
   plugins: [],
 }
